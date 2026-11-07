@@ -253,3 +253,27 @@ Esto permite un comportamiento alternativo seguro sin inventar métricas.
 - No se verificó en reloj físico.
 - La app del teléfono se verificó en compilación y lint, pero no en ejecución; el emulador de teléfono disponible no arrancó de forma estable.
 - La sincronización real entre teléfono y reloj no se verificó en ejecución; el reloj mostró `Pendiente` sin teléfono, que es el comportamiento esperado.
+
+## 📱 Capturas de Pantalla
+
+Las capturas de prueba del flujo completo de la aplicación se encuentran almacenadas en el directorio [`docs/screenshots/`](docs/screenshots/).
+
+### ⌚ Módulo Reloj (Wear OS)
+
+Muestra el flujo del registro de actividad en el reloj desde la selección del ejercicio hasta el resumen final con las métricas capturadas por Health Services.
+
+<p align="center">
+  <img src="./docs/screenshots/reloj_inicio.png" width="180" alt="Reloj - Pantalla de Inicio">
+  <img src="./docs/screenshots/reloj_actividad.png" width="180" alt="Reloj - Actividad en curso">
+  <img src="./docs/screenshots/reloj_pausado.png" width="180" alt="Reloj - Menú de Pausa">
+  <img src="./docs/screenshots/reloj_resumen.png" width="180" alt="Reloj - Resumen de Actividad">
+</p>
+
+### 📱 Módulo Teléfono (Android)
+
+Muestra la gestión del perfil de usuario (peso para cálculo de calorías) y la consulta del historial de actividades sincronizadas desde el reloj.
+
+<p align="center">
+  <img src="./docs/screenshots/telefono_inicio.png" width="220" alt="Teléfono - Pantalla Principal">
+  <img src="./docs/screenshots/telefono_perfil.png" width="220" alt="Teléfono - Pantalla Perfil">
+</p>
