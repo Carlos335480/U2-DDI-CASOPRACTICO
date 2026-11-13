@@ -277,3 +277,8 @@ Muestra la gestión del perfil de usuario (peso para cálculo de calorías) y la
   <img src="./docs/screenshots/telefono_inicio.png" width="220" alt="Teléfono - Pantalla Principal">
   <img src="./docs/screenshots/telefono_perfil.png" width="220" alt="Teléfono - Pantalla Perfil">
 </p>
+
+## Documentación proyecto
+-**[Arquitectura del Sistema](docs/ARQUITECTURA.md):** Diseño modular (`:wear`, `:phone`, `:shared`), ciclo de vida de sensores y protocolo Data Layer.
+- **[Galería de Capturas](docs/screenshots/):** Evidencia visual en Wear OS 4 y Android.
+- **[Comandos y Despliegue](docs/COMANDOS.md):** Guía de compilación, pruebas unitarias y ejecución en emuladores emparejados.
