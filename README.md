@@ -279,6 +279,6 @@ Muestra la gestión del perfil de usuario (peso para cálculo de calorías) y la
 </p>
 
 ## Documentación proyecto
--**[Arquitectura del Sistema](docs/ARQUITECTURA.md):** Diseño modular (`:wear`, `:phone`, `:shared`), ciclo de vida de sensores y protocolo Data Layer.
+- **[Arquitectura del Sistema](docs/ARQUITECTURA.md):** Diseño modular (`:wear`, `:phone`, `:shared`), ciclo de vida de sensores y protocolo Data Layer.
 - **[Galería de Capturas](docs/screenshots/):** Evidencia visual en Wear OS 4 y Android.
 - **[Comandos y Despliegue](docs/COMANDOS.md):** Guía de compilación, pruebas unitarias y ejecución en emuladores emparejados.
